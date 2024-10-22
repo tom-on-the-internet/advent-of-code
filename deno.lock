@@ -3,7 +3,9 @@
   "specifiers": {
     "jsr:@std/assert@*": "1.0.6",
     "jsr:@std/assert@1": "1.0.6",
-    "jsr:@std/internal@^1.0.4": "1.0.4"
+    "jsr:@std/encoding@1": "1.0.5",
+    "jsr:@std/internal@^1.0.4": "1.0.4",
+    "jsr:@takker/md5@0.1": "0.1.0"
   },
   "jsr": {
     "@std/assert@1.0.6": {
@@ -12,13 +14,20 @@
         "jsr:@std/internal"
       ]
     },
+    "@std/encoding@1.0.5": {
+      "integrity": "ecf363d4fc25bd85bd915ff6733a7e79b67e0e7806334af15f4645c569fefc04"
+    },
     "@std/internal@1.0.4": {
       "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
+    },
+    "@takker/md5@0.1.0": {
+      "integrity": "4c423d8247aadf7bcb1eb83c727bf28c05c21906e916517395d00aa157b6eae0"
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/assert@1"
+      "jsr:@std/assert@1",
+      "jsr:@takker/md5@0.1"
     ]
   }
 }
